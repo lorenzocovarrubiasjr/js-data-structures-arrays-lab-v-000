@@ -12,3 +12,7 @@ function destructivelyPrependDriver(driver){
 function destructivelyRemoveFirstDriver() {
   return drivers.shift();
 }
+
+function appendDriver(driver) {
+  return new_array = [drivers, ...driver];
+}
